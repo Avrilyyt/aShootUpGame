@@ -89,7 +89,7 @@ void keyPressed() {
   
   if ( keyCode == ENTER && gameState == 0 )    gameState = 1;
   
-  if ( gameState == -1 || gameState == 100 ){
+  if ( gameState == -1 || gameState == 9 ){
     if ( keyCode == ENTER ){
       score.s = 0;
       player.pos = new PVector(width/2,height/2+200);
